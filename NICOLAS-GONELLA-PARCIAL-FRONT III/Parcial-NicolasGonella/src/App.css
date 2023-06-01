@@ -1,8 +1,49 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 200px;
+  border-radius: 30px;
+}
+
+body{
+  background-color: white;
+}
+
+h1{
+  color: black;
+}
+.tarjeta{
+  width: auto;
+  height: 200px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 
+.campo1{
+  background-color: white;
+  border-radius: 5px;
+  width: auto;
+  height: 40px;
+  
+}
+
+.campo2{
+  background-color: white;
+  border-radius: 8px;
+  width: auto;
+  height: 40px;
+ 
+}
+
+.boton{
+  background-color: #2d57d5;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 320px;
+  
+
+  
+}

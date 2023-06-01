@@ -1,15 +1,26 @@
+import { useState } from 'react'
 import './App.css'
 import Card from './Components/Card'
 
 function App() {
 
-  return (
-    <div className='App'>
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card/>
+  const [bday, setBday] = useState({
+    name: '',
+    color: '', 
+  })
+  
+  const [styles, setStyles] = useState({
+    background: 'grey',
+  })
 
-    </div>
+  return (
+    <>  
+   
+    <h1>Elige un color</h1>
+
+      <Card bday={bday} setBday={setBday} setStyles={setStyles} styles={styles}/>
+
+    </>
   )
 }
 
